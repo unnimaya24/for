@@ -1,7 +1,10 @@
-string = input("Please enter your own sentence : ")
-str1 = ""
-for i in string:
-    str1 = i + str1  
-if(string == str1):
-   print(str1,end="@")
-print()
+string = "my dad said our mother tongue is malayalam"
+y=string.split()
+['my' 'dad' 'said' 'our' 'mother' 'tongue' 'is' 'malaylam']
+for i in y :
+    x=i[-1::]
+    if i ==x:
+     print( "@" * len(i))
+else:
+  print(i)
+
